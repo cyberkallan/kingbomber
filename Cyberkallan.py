@@ -37,6 +37,16 @@ def send(target, counter, delay):
     while success != (int(bombs)):
         banner()
         api = random.choice(list(bombers))
+        print(r"               _                         _              _   _                  ")
+print(r"              | |                       | |            | | | |                 ")
+print(r"   ___   _   _  | |__     ___   _ __    | | __   __ _  | | | |   __ _   _ __   ")
+print(r"  / __| | | | | | '_ \   / _ \ | '__|   | |/ /  / _` | | | | |  / _` | | '_ \  ")
+print(r" | (__  | |_| | | |_) | |  __/ | |      |   <  | (_| | | | | | | (_| | | | | | ")
+print(r"  \___|  \__, | |_.__/   \___| |_|      |_|\_\  \__,_| |_| |_|  \__,_| |_| |_| ")
+print(r"          __/ |                                                                ")
+print(r"         |___/                                                                 ")
+print(r"                                                                               ")
+   
         print("==================================================================")
         print("                BOMBING in progress, please wait !!               ")
         print("     Please keep your data connection active during bombing !!    ")
