@@ -11,11 +11,19 @@ def banner():
         os.system("clear")
     
                        
-print(" _     /_ _  _  /_ _  / / _  _") 
-print("/_ /_//_//_'/  /\ /_|/ / /_|/ /")
-print(" _/ ")                         
+print(r _     /_ _  _  /_ _  / / _  _") 
+print(r/_ /_//_//_'/  /\ /_|/ / /_|/ /")
+print(r _/ ")                         
 
-      
+ print(r_     _                 _                        _                ") 
+print(r| |   (_)               | |                      | |               ")
+print(r| | __ _  _ __    __ _  | |__    ___   _ __ ___  | |__    ___  _ __")
+print(r| |/ /| || '_ \  / _` | | '_ \  / _ \ | '_ ` _ \ | '_ \  / _ \| '__|")
+print(r|   < | || | | || (_| | | |_) || (_) || | | | | || |_) ||  __/| |   ")
+print(r|_|\_\|_||_| |_| \__, | |_.__/  \___/ |_| |_| |_||_.__/  \___||_|   ")
+print(r                  __/ |                                            ") 
+print(r                 |___/                                             ") 
+    
 def send(target, counter, delay):
     bombers = {
     "OYO Rooms": "https://www.oyorooms.com/api/pwa/generateotp?phone=",
