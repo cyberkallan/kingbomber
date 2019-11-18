@@ -11,10 +11,10 @@ def banner():
         os.system("clear")
     
                        
-print(r _     /_ _  _  /_ _  / / _  _") 
-print(r/_ /_//_//_'/  /\ /_|/ / /_|/ /")
-print(r _/ ")                         
-
+print(" _     /_ _  _  /_ _  / / _  _") 
+print("/_ /_//_//_'/  /\ /_|/ / /_|/ /")
+print(" _/ ")                         
+sleep 4
   
     
 def send(target, counter, delay):
