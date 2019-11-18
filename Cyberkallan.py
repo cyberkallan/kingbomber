@@ -10,8 +10,20 @@ def banner():
     else:
         os.system("clear")
     
-figlet Cyber kallan
-sleep 2
+print("                               
+ _     /_ _  _  /_ _  / / _  _ 
+/_ /_//_//_'/  /\ /_|/ / /_|/ /
+   _/                          
+")
+      print("  _      _                     _                           _                   
+ | |    (_)                   | |                         | |                  
+ | | __  _   _ __     __ _    | |__     ___    _ __ ___   | |__     ___   _ __ 
+ | |/ / | | | '_ \   / _` |   | '_ \   / _ \  | '_ ` _ \  | '_ \   / _ \ | '__|
+ |   <  | | | | | | | (_| |   | |_) | | (_) | | | | | | | | |_) | |  __/ | |   
+ |_|\_\ |_| |_| |_|  \__, |   |_.__/   \___/  |_| |_| |_| |_.__/   \___| |_|   
+                      __/ |                                                    
+                     |___/                                                     
+")
 def send(target, counter, delay):
     bombers = {
     "OYO Rooms": "https://www.oyorooms.com/api/pwa/generateotp?phone=",
