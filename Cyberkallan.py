@@ -10,11 +10,11 @@ def banner():
     else:
         os.system("clear")
     
-print("                               
- _     /_ _  _  /_ _  / / _  _ 
-/_ /_//_//_'/  /\ /_|/ / /_|/ /
-   _/                          
-")
+                       
+print(" _     /_ _  _  /_ _  / / _  _") 
+print("/_ /_//_//_'/  /\ /_|/ / /_|/ /")
+print(" _/ ")                         
+
       
 def send(target, counter, delay):
     bombers = {
