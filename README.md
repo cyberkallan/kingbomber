@@ -4,5 +4,6 @@ Bomber tool for India
 ``` git clone https://github.com/cyberkallan/kingbomber
 cd kingbomber
 chmod +x *
-python kingbomber
+python kingbomber.py
+
 ```
